@@ -1,0 +1,14 @@
+{
+  "name": "dice-roller-mcp",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @dice-roller-mcp/web dev",
+    "build": "pnpm --filter @dice-roller-mcp/web build",
+    "preview": "pnpm --filter @dice-roller-mcp/web preview",
+    "typecheck": "pnpm --filter @dice-roller-mcp/web exec tsc -b",
+    "test": "pnpm --filter @dice-roller-mcp/web test"
+  }
+}
