@@ -1,0 +1,6 @@
+{
+  "appId": "dice-roller-mcp",
+  "applicationRoot": "web",
+  "outputPath": "web/dist",
+  "buildCommand": "pnpm build"
+}
