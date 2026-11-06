@@ -8,7 +8,6 @@
     "dev": "pnpm --filter @dice-roller-mcp/web dev",
     "build": "pnpm --filter @dice-roller-mcp/web build",
     "preview": "pnpm --filter @dice-roller-mcp/web preview",
-    "typecheck": "pnpm --filter @dice-roller-mcp/web exec tsc -b",
-    "test": "pnpm --filter @dice-roller-mcp/web test"
+    "typecheck": "pnpm --filter @dice-roller-mcp/web exec tsc -b"
   }
 }
